@@ -4,7 +4,7 @@ public class GenerateAddColumnSql {
 
     public static void main(String[] args) {
         // 需要输入表名
-        String tableName = "swap";
+        String tableName = "air_clearance";
 
         Map<String, ColumnsEntity> columnsEntityMap = ColumnsEntityMap.getData();
         String data = getData();
@@ -30,10 +30,16 @@ public class GenerateAddColumnSql {
     }
 
     public static String getData(){
-        return "中文品名\n" +
-                "英文品名\n" +
-                "英文品名2\n" +
-                "换单日期";
+        return "报关行\n" +
+                "报关单号\n" +
+                "报关员\n" +
+                "报关备注\n" +
+                "计划查验日\n" +
+                "查验日\n" +
+                "查验地点\n" +
+                "查验放行日\n" +
+                "查验结果\n" +
+                "查验备注";
     }
 
 

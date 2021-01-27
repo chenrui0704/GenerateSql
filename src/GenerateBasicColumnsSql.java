@@ -2,7 +2,7 @@ public class GenerateBasicColumnsSql {
 
     public static void main(String[] args) {
         // 需要输入表名
-        String tableName = "swap2";
+        String tableName = "air_trans";
 
         System.out.println(getData(tableName));
 
